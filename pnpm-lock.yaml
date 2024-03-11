@@ -5,12 +5,18 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  typed.js:
+    specifier: ^2.1.0
+    version: 2.1.0
   vue:
     specifier: ^3.4.19
     version: 3.4.21
   vue-router:
     specifier: ^4.3.0
     version: 4.3.0(vue@3.4.21)
+  vue-typed-js:
+    specifier: ^0.1.2
+    version: 0.1.2
 
 devDependencies:
   '@vitejs/plugin-vue':
@@ -544,6 +550,10 @@ packages:
     resolution: {integrity: sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog==}
     engines: {node: '>=4'}
 
+  /typed.js@2.1.0:
+    resolution: {integrity: sha512-bDuXEf7YcaKN4g08NMTUM6G90XU25CK3bh6U0THC/Mod/QPKlEt9g/EjvbYB8x2Qwr2p6J6I3NrsoYaVnY6wsQ==}
+    dev: false
+
   /vite@5.1.5:
     resolution: {integrity: sha512-BdN1xh0Of/oQafhU+FvopafUp6WaYenLU/NFoL5WyJL++GxkNfieKzBhM24H3HVsPQrlAqB7iJYTHabzaRed5Q==}
     engines: {node: ^18.0.0 || >=20.0.0}
@@ -588,6 +598,12 @@ packages:
       vue: 3.4.21
     dev: false
 
+  /vue-typed-js@0.1.2:
+    resolution: {integrity: sha512-9kDGuz17uYJghe/1hepRWiWYssgUFtrKnMGPHlWjVRxdvs/d9xYYWMkgzztjhx1R1B33hXkN8ctmkzCYHQ+caA==}
+    dependencies:
+      typed.js: github.com/mattboldt/typed.js/f0759c1dc054a2d6743862d5331f03e49f9845d7
+    dev: false
+
   /vue@3.4.21:
     resolution: {integrity: sha512-5hjyV/jLEIKD/jYl4cavMcnzKwjMKohureP8ejn3hhEjwhWIhWeuzL2kJAjzl/WyVsgPY56Sy4Z40C3lVshxXA==}
     peerDependencies:
@@ -601,3 +617,9 @@ packages:
       '@vue/runtime-dom': 3.4.21
       '@vue/server-renderer': 3.4.21(vue@3.4.21)
       '@vue/shared': 3.4.21
+
+  github.com/mattboldt/typed.js/f0759c1dc054a2d6743862d5331f03e49f9845d7:
+    resolution: {tarball: https://codeload.github.com/mattboldt/typed.js/tar.gz/f0759c1dc054a2d6743862d5331f03e49f9845d7}
+    name: typed.js
+    version: 2.1.0
+    dev: false

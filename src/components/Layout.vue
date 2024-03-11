@@ -1,34 +1,90 @@
 <template>
   <div id="layout">
-    <header>
-      <h1>My Awesome Website</h1>
-      <nav>
-        <router-link to="/">Home</router-link>
-        <router-link to="/about">About</router-link>
-        <router-link to="/contact">Contact</router-link>
-        <router-link to="/portfolio">Portfolio</router-link>
-      </nav>
-    </header>
-    <main>
-      <router-view></router-view>
-    </main>
-    <footer>
-      <p>Copyright &copy; 2024</p>
-    </footer>
+    <!-- Page Loader Start -->
+    <div class="page-loader" style="display: none">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <!-- Page Loader End -->
+    <!-- Background Circles Start -->
+    <div class="bg-circles">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+      <div class="circle-3"></div>
+      <div class="circle-4"></div>
+    </div>
+    <!-- Background Circles Start -->
+    <!-- Overlay Start-->
+    <div class="overlay"></div>
+    <!-- Overlay End-->
+    <!-- Header Start-->
+
+    <div class="main">
+      <header class="header" :class="{ active: isHeaderActive }">
+        <div class="container">
+          <div class="row flex-end">
+            <button type="button" class="nav-toggler" @click="toggleNavbar">
+              <span></span>
+            </button>
+            <nav class="nav">
+              <div class="nav-inner">
+                <ul>
+                  <li>
+                    <router-link to="/" @click.native="closeNavbar" class="nav-item link-item"
+                      >Home</router-link
+                    >
+                  </li>
+                  <li>
+                    <router-link to="/about" @click.native="closeNavbar" class="nav-item link-item"
+                      >About</router-link
+                    >
+                  </li>
+                  <li>
+                    <router-link to="/portfolio" @click.native="closeNavbar" class="nav-item link-item"
+                      >Portfolio</router-link
+                    >
+                  </li>
+                  <li>
+                    <router-link to="/contact" @click.native="closeNavbar" class="nav-item link-item"
+                      >Contact</router-link
+                    >
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- Header End-->
+
+      <main>
+        <router-view></router-view>
+      </main>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Layout",
+  data() {
+    return {
+      isHeaderActive: false,
+    };
+  },
+  methods: {
+    toggleNavbar() {
+      this.isHeaderActive = !this.isHeaderActive;
+      document.querySelector("section").classList.toggle("fade-out");
+    },
+     closeNavbar() {
+      this.isHeaderActive = false;
+      document.querySelector("section").classList.toggle("fade-out");
+    }
+  },
 };
 </script>
 
 <style scoped>
-/* Add your layout styles here */
-header,
-footer {
-  background-color: #f0f0f0;
-  padding: 1rem;
-}
+/* Add your CSS styles here */
 </style>
