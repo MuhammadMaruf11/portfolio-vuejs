@@ -13,7 +13,7 @@
         </div>
         <div class="home-img">
           <div class="img-box">
-            <img src="/img/3rudit3.jpg" alt="profile-img" />
+            <img src="/img/3rudit3.webp" alt="profile-img" />
           </div>
         </div>
       </div>
@@ -29,7 +29,12 @@ export default {
   mounted() {
     // Initialize Typed.js
     this.typed = new Typed(this.$refs.typed, {
-      strings: ['Frontend Developer (React)', 'MERN Stack Developer', 'Frontend Developer (Vue)', 'Android App Developer (React Native)'],
+      strings: [
+        'Frontend Developer (React)',
+        'Full Stack Developer (MERN)',
+        'Frontend Developer (Vue)',
+        'Android App Developer (React Native)'
+      ],
       typeSpeed: 50,
       loop: true
     });

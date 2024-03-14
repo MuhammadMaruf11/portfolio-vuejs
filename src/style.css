@@ -735,16 +735,26 @@ Home Section
     background-color: var(--white-alpha-25);
     border: 1px solid var(--white-alpha-40);
     border-radius: 10px;
+    transition: all 5s linear;
 }
 .portfolio-item h3{
     font-size: 20px;
     text-transform: capitalize;
     margin: 20px 0;
 }
-.protfolio-item-thumbnail img{
+.protfolio-item-thumbnail img {
     width: 100%;
     border-radius: 10px;
+    height: 160px;
+    object-fit: cover;
+    object-position: top;
+    transition: all 5s linear;
 }
+
+.protfolio-item-thumbnail:hover img {
+    object-position: bottom;
+}
+
 .portfolio-item-details{
     display: none;
 }
@@ -804,9 +814,23 @@ Home Section
     top: -40px;
 }
 
-.pp-thumbnail img{
-    border-radius: 10px;
+.pp-header .btn:hover{
+   background-color: var(--main-color);
 }
+
+.pp-thumbnail img {
+    border-radius: 10px;
+    height: 352px;
+    object-fit: cover;
+    width: 100%;
+    object-position: top;
+    transition: all 5s linear;
+}
+
+.pp-thumbnail:hover img {
+    object-position: bottom;
+}
+
 .pp-header h3{
     font-size: 25px;
     text-transform: capitalize;

@@ -9,13 +9,13 @@
       <div class="row">
         <div class="about-img">
           <div class="img-box">
-            <img src="/img/3rudit3.jpg" alt="about img" />
+            <img src="/img/3rudit3.webp" alt="about img" />
           </div>
         </div>
         <div class="about-text">
           <p>
             I want to build my career by developing new skills and learning new
-            technologies in the field of computer science. I want to be part of
+            technologies as a MERN stack developer. I want to be part of
             a group which innovates next generation technological solutions for
             mankind in an industry leading organization
           </p>
@@ -23,25 +23,32 @@
           <div class="skills">
             <div class="skill-item">HTML5</div>
             <div class="skill-item">CSS3</div>
-            <div class="skill-item">JavaScript</div>
+            <div class="skill-item">Tailwind CSS</div>
+            <div class="skill-item">SCSS</div>
             <div class="skill-item">Bootstrap</div>
             <div class="skill-item">React Bootstrap</div>
-            <div class="skill-item">TailwindCSS</div>
-            <div class="skill-item">Vue Js</div>
+            <div class="skill-item">JavaScript</div>
+            <div class="skill-item">jQuery</div>
             <div class="skill-item">React JS</div>
-            <div class="skill-item">Next JS</div>
-            <div class="skill-item">Node.js</div>
-            <div class="skill-item">Express.js</div>
-            <div class="skill-item">MongoDB</div>
+            <div class="skill-item">TypeScript</div>
+            <div class="skill-item">React TypeScript</div>
+            <div class="skill-item">NextJs</div>
+            <div class="skill-item">VueJs</div>
             <div class="skill-item">JSON</div>
             <div class="skill-item">REST API</div>
-            <div class="skill-item">TypeScript</div>
           </div>
           <h3>Familiar with:</h3>
           <div class="skills">
-            <div class="skill-item">Webflow (Basic)</div>
-            <div class="skill-item">React Native (Basic)</div>
-            <div class="skill-item">Expo (Basic)</div>
+            <div class="skill-item">React Redux</div>
+            <div class="skill-item">Redux Toolkit</div>
+            <div class="skill-item">RTK Query</div>
+            <div class="skill-item">React Native</div>
+            <div class="skill-item">Expo</div>
+            <div class="skill-item">Node.js</div>
+            <div class="skill-item">Express.js</div>
+            <div class="skill-item">MongoDB</div>
+            <div class="skill-item">Mongoose</div>
+            <div class="skill-item">Webflow</div>
           </div>
           <h3>Tools:</h3>
           <div class="skills">
@@ -111,6 +118,22 @@
                 </h4>
                 <p>Degree<sup>1st</sup> year department of Business Study</p>
               </div>
+              <!-- <div class="timeline-item">
+                <span class="date">Passed - GPA 3.67</span>
+                <h4>
+                  Higher Secondary Certificate -
+                  <span>Khilgaon Ideal College</span>
+                </h4>
+                <p>Department of Business Study</p>
+              </div>
+              <div class="timeline-item">
+                <span class="date">GPA 4.19</span>
+                <h4>
+                  Secondary School Certificate -
+                  <span>Quality Education College</span>
+                </h4>
+                <p>Department of Business Study</p>
+              </div> -->
             </div>
           </div>
           <!-- Education End-->

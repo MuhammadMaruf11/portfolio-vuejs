@@ -3,17 +3,26 @@
     <div class="container">
       <div class="row">
         <div class="section-title">
-          <h2>recent work</h2>
+          <h2>Work Sample</h2>
         </div>
       </div>
       <div class="row">
         <!-- Portfolio Item Start-->
-        <div v-for="(item, index) in portfolioItems" :key="index" class="portfolio-item">
+        <div
+          v-for="(item, index) in portfolioItems"
+          :key="index"
+          class="portfolio-item"
+        >
           <div class="protfolio-item-thumbnail">
-            <img :src="item.imageSrc" :alt="item.title">
+            <img loading="lazy" :src="item.imageSrc" :alt="item.title" />
           </div>
           <h3 class="protfolio-item-title">{{ item.title }}</h3>
-          <a type="button" class="btn view-project-btn" @click="showPortfolioPopup(index)">view project</a>
+          <a
+            type="button"
+            class="btn view-project-btn"
+            @click="showPortfolioPopup(index)"
+            >view project</a
+          >
         </div>
         <!-- Portfolio Item End-->
       </div>
@@ -21,17 +30,24 @@
   </section>
 
   <!-- Portfolio Popup Start -->
-  <div class="portfolio-popup" v-if="popupVisible">
+  <div class="portfolio-popup open" v-if="popupVisible">
     <div class="pp-inner">
-      <button class="pp-close" @click="hidePortfolioPopup">Close</button>
-      <div class="pp-thumbnail">
-        <img :src="portfolioItems[selectedItem].imageSrc" :alt="portfolioItems[selectedItem].title">
-      </div>
-      <div class="pp-header">
-        <h3>{{ portfolioItems[selectedItem].title }}</h3>
-      </div>
-      <div class="pp-body">
-        <div v-html="portfolioItems[selectedItem].details"></div>
+      <div class="pp-content">
+        <div class="pp-header">
+          <button class="btn pp-close" @click="hidePortfolioPopup">
+        <i class='fas fa-times'></i>
+          </button>
+          <div class="pp-thumbnail">
+            <img
+              :src="portfolioItems[selectedItem].imageSrc"
+              :alt="portfolioItems[selectedItem].title"
+            />
+          </div>
+          <h3>{{ portfolioItems[selectedItem].title }}</h3>
+        </div>
+        <div class="pp-body">
+          <div v-html="portfolioItems[selectedItem].details"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -39,28 +55,32 @@
 </template>
 
 <script>
-import { portfolioItems } from '../data/portfolioItems';
+import { portfolioItems } from "../data/portfolioItems";
 
 export default {
   data() {
     return {
       portfolioItems,
       popupVisible: false,
-      selectedItem: null
+      selectedItem: null,
     };
   },
   methods: {
     showPortfolioPopup(index) {
       this.selectedItem = index;
       this.popupVisible = true;
-      document.body.classList.add('hide-scrolling');
+      document.body.classList.add("hide-scrolling");
+      document.querySelector('#portfolio').classList.add("fade-out");
+      document.querySelector('.nav-toggler').style.display = 'none';
     },
     hidePortfolioPopup() {
       this.selectedItem = null;
       this.popupVisible = false;
-      document.body.classList.remove('hide-scrolling');
-    }
-  }
+      document.body.classList.remove("hide-scrolling");
+      document.querySelector('#portfolio').classList.remove("fade-out");
+      document.querySelector('.nav-toggler').style.display = 'flex';
+    },
+  },
 };
 </script>
 

@@ -59,7 +59,7 @@
             </div>
             <div class="contact-info-item">
               <h3>Phone</h3>
-              <p>+01971795775</p>
+              <p>+8801971795775</p>
             </div>
             <div class="contact-info-item">
               <h3>follow me</h3>
