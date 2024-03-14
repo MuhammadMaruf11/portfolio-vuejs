@@ -1,7 +1,7 @@
 export const portfolioItems = [
   {
     title: 'Photobook Editor',
-    imageSrc: 'img/works/photobook.svg',
+    imageSrc: 'img/work-sample/photobook.webp',
     details: `
             <div class="description">
               <p>Features: WatchShop website. Users can order services and check their previous order history with status (pending, shipping, or done). This website has a functional admin panel with restricted access (only admin can access) section where admin can:</p>
@@ -25,7 +25,7 @@ export const portfolioItems = [
   },
   {
     title: 'Banking API Provider',
-    imageSrc: 'img/works/banking-api.svg',
+    imageSrc: 'img/work-sample/banking-api.webp',
     details: `
             <div class="description">
               <p>Features: WatchShop website. Users can order services and check their previous order history with status (pending, shipping, or done). This website has a functional admin panel with restricted access (only admin can access) section where admin can:</p>
@@ -49,7 +49,7 @@ export const portfolioItems = [
   },
   {
     title: 'Dream View Electronics',
-    imageSrc: 'img/works/dreamview.svg',
+    imageSrc: 'img/work-sample/dreamview.webp',
     details: `
             <div class="description">
               <p>Features: WatchShop website. Users can order services and check their previous order history with status (pending, shipping, or done). This website has a functional admin panel with restricted access (only admin can access) section where admin can:</p>
@@ -73,7 +73,7 @@ export const portfolioItems = [
   },
   {
     title: 'Tech Vault Ltd.',
-    imageSrc: 'img/works/techvault.svg',
+    imageSrc: 'img/work-sample/techvault.webp',
     details: `
             <div class="description">
               <p>Features: WatchShop website. Users can order services and check their previous order history with status (pending, shipping, or done). This website has a functional admin panel with restricted access (only admin can access) section where admin can:</p>
@@ -97,7 +97,7 @@ export const portfolioItems = [
   },
   {
     title: 'E-commerce',
-    imageSrc: 'img/works/ecommerce.svg',
+    imageSrc: 'img/work-sample/ecommerce.webp',
     details: `
             <div class="description">
               <p>Features: WatchShop website. Users can order services and check their previous order history with status (pending, shipping, or done). This website has a functional admin panel with restricted access (only admin can access) section where admin can:</p>
@@ -121,7 +121,7 @@ export const portfolioItems = [
   },
   {
     title: 'Rex roth.',
-    imageSrc: 'img/works/rexroth.svg',
+    imageSrc: 'img/work-sample/rexroth.webp',
     details: `
             <div class="description">
               <p>Features: WatchShop website. Users can order services and check their previous order history with status (pending, shipping, or done). This website has a functional admin panel with restricted access (only admin can access) section where admin can:</p>
@@ -145,7 +145,7 @@ export const portfolioItems = [
   },
   {
     title: 'Musaifa Agro',
-    imageSrc: 'img/works/musaifa-agro.svg',
+    imageSrc: 'img/work-sample/musaifa-agro.webp',
     details: `
             <div class="description">
               <p>Features: WatchShop website. Users can order services and check their previous order history with status (pending, shipping, or done). This website has a functional admin panel with restricted access (only admin can access) section where admin can:</p>
@@ -169,7 +169,7 @@ export const portfolioItems = [
   },
   {
     title: 'Bill Token',
-    imageSrc: 'img/works/biltoken.svg',
+    imageSrc: 'img/work-sample/biltoken.webp',
     details: `
             <div class="description">
               <p>Features: WatchShop website. Users can order services and check their previous order history with status (pending, shipping, or done). This website has a functional admin panel with restricted access (only admin can access) section where admin can:</p>
@@ -193,7 +193,7 @@ export const portfolioItems = [
   },
   {
     title: 'Outss',
-    imageSrc: 'img/works/outss.svg',
+    imageSrc: 'img/work-sample/outss.webp',
     details: `
             <div class="description">
               <p>Features: WatchShop website. Users can order services and check their previous order history with status (pending, shipping, or done). This website has a functional admin panel with restricted access (only admin can access) section where admin can:</p>
@@ -217,7 +217,7 @@ export const portfolioItems = [
   },
   {
     title: 'Piroll',
-    imageSrc: 'img/works/piroll.svg',
+    imageSrc: 'img/work-sample/piroll.webp',
     details: `
             <div class="description">
               <p>Features: WatchShop website. Users can order services and check their previous order history with status (pending, shipping, or done). This website has a functional admin panel with restricted access (only admin can access) section where admin can:</p>
@@ -241,7 +241,7 @@ export const portfolioItems = [
   },
   {
     title: 'Aleafina',
-    imageSrc: 'img/works/aleafina.svg',
+    imageSrc: 'img/work-sample/aleafina.webp',
     details: `
             <div class="description">
               <p>Features: WatchShop website. Users can order services and check their previous order history with status (pending, shipping, or done). This website has a functional admin panel with restricted access (only admin can access) section where admin can:</p>
@@ -265,7 +265,7 @@ export const portfolioItems = [
   },
   {
     title: 'Tele Sync Nexus',
-    imageSrc: 'img/works/telesync.svg',
+    imageSrc: 'img/work-sample/telesync.webp',
     details: `
             <div class="description">
               <p>Features: WatchShop website. Users can order services and check their previous order history with status (pending, shipping, or done). This website has a functional admin panel with restricted access (only admin can access) section where admin can:</p>
@@ -289,7 +289,7 @@ export const portfolioItems = [
   },
   {
     title: 'School and College management',
-    imageSrc: 'img/works/clg-management.svg',
+    imageSrc: 'img/work-sample/clg-management.webp',
     details: `
             <div class="description">
               <p>Features: WatchShop website. Users can order services and check their previous order history with status (pending, shipping, or done). This website has a functional admin panel with restricted access (only admin can access) section where admin can:</p>
@@ -313,7 +313,7 @@ export const portfolioItems = [
   },
   {
     title: 'Grandeur',
-    imageSrc: 'img/works/grandeur.svg',
+    imageSrc: 'img/work-sample/grandeur.webp',
     details: `
             <div class="description">
               <p>Features: WatchShop website. Users can order services and check their previous order history with status (pending, shipping, or done). This website has a functional admin panel with restricted access (only admin can access) section where admin can:</p>
@@ -337,7 +337,7 @@ export const portfolioItems = [
   },
   {
     title: 'Web Solution International Network',
-    imageSrc: 'img/works/wsin.svg',
+    imageSrc: 'img/work-sample/wsin.webp',
     details: `
             <div class="description">
               <p>Features: WatchShop website. Users can order services and check their previous order history with status (pending, shipping, or done). This website has a functional admin panel with restricted access (only admin can access) section where admin can:</p>
