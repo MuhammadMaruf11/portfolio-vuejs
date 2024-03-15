@@ -21,7 +21,7 @@
             type="button"
             class="btn view-project-btn"
             @click="showPortfolioPopup(index)"
-            >view project</a
+            >view details</a
           >
         </div>
         <!-- Portfolio Item End-->

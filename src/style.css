@@ -386,12 +386,12 @@ Header Section
     top: 0;
     width: 100%;
     z-index: 1;
-    padding: 20px 0px;
+    padding: 20px;
 }
 .header.active {
     /* position: fixed; */
     /* top: 35px; */
-    padding: 20px 0px;
+    padding: 20px;
 }
 .header.active .container{
     /* min-width: 1200px; */
@@ -820,7 +820,7 @@ Home Section
 
 .pp-thumbnail img {
     border-radius: 10px;
-    height: 352px;
+    height: 350px;
     object-fit: cover;
     width: 100%;
     object-position: top;
@@ -953,6 +953,9 @@ Home Section
     }
     .portfolio-item{
         width: calc(50% - 30px);
+    }
+    .pp-thumbnail img{
+        height: 200px;
     }
 }
 @media(max-width:767px){

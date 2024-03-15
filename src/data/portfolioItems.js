@@ -16,9 +16,9 @@ export const portfolioItems = [
               <ul>
                 <li>Technologies used: HTML, CSS, Bootstrap, React, React-Router, ReactHook-Form, Axios, Node.js, Express.js, Mongodb, Firebase, Heroku.</li>
                 <li>Role: Frontend/Backend</li>
-                <li>View Online: <a href="https://watchshop-29145.web.app/" target="_blank">Watch Shope</a></li>
-                <li>Frontend Code: <a href="https://github.com/rahman-cmd/watch-shoop-client" target="_blank">Client Side</a></li>
-                <li>Backend Code: <a href="https://github.com/rahman-cmd/watchshop-server" target="_blank">Server Side</a></li>
+                <li>View Online: <a href="#" target="_blank">Watch Shope</a></li>
+                <li>Frontend Code: <a href="#" target="_blank">Client Side</a></li>
+                <li>Backend Code: <a href="#" target="_blank">Server Side</a></li>
               </ul>
             </div>
           `
@@ -40,9 +40,9 @@ export const portfolioItems = [
               <ul>
                 <li>Technologies used: HTML, CSS, Bootstrap, React, React-Router, ReactHook-Form, Axios, Node.js, Express.js, Mongodb, Firebase, Heroku.</li>
                 <li>Role: Frontend/Backend</li>
-                <li>View Online: <a href="https://watchshop-29145.web.app/" target="_blank">Watch Shope</a></li>
-                <li>Frontend Code: <a href="https://github.com/rahman-cmd/watch-shoop-client" target="_blank">Client Side</a></li>
-                <li>Backend Code: <a href="https://github.com/rahman-cmd/watchshop-server" target="_blank">Server Side</a></li>
+                <li>View Online: <a href="#" target="_blank">Watch Shope</a></li>
+                <li>Frontend Code: <a href="#" target="_blank">Client Side</a></li>
+                <li>Backend Code: <a href="#" target="_blank">Server Side</a></li>
               </ul>
             </div>
           `
@@ -64,9 +64,9 @@ export const portfolioItems = [
               <ul>
                 <li>Technologies used: HTML, CSS, Bootstrap, React, React-Router, ReactHook-Form, Axios, Node.js, Express.js, Mongodb, Firebase, Heroku.</li>
                 <li>Role: Frontend/Backend</li>
-                <li>View Online: <a href="https://watchshop-29145.web.app/" target="_blank">Watch Shope</a></li>
-                <li>Frontend Code: <a href="https://github.com/rahman-cmd/watch-shoop-client" target="_blank">Client Side</a></li>
-                <li>Backend Code: <a href="https://github.com/rahman-cmd/watchshop-server" target="_blank">Server Side</a></li>
+                <li>View Online: <a href="#" target="_blank">Watch Shope</a></li>
+                <li>Frontend Code: <a href="#" target="_blank">Client Side</a></li>
+                <li>Backend Code: <a href="#" target="_blank">Server Side</a></li>
               </ul>
             </div>
           `
@@ -88,9 +88,9 @@ export const portfolioItems = [
               <ul>
                 <li>Technologies used: HTML, CSS, Bootstrap, React, React-Router, ReactHook-Form, Axios, Node.js, Express.js, Mongodb, Firebase, Heroku.</li>
                 <li>Role: Frontend/Backend</li>
-                <li>View Online: <a href="https://watchshop-29145.web.app/" target="_blank">Watch Shope</a></li>
-                <li>Frontend Code: <a href="https://github.com/rahman-cmd/watch-shoop-client" target="_blank">Client Side</a></li>
-                <li>Backend Code: <a href="https://github.com/rahman-cmd/watchshop-server" target="_blank">Server Side</a></li>
+                <li>View Online: <a href="#" target="_blank">Watch Shope</a></li>
+                <li>Frontend Code: <a href="#" target="_blank">Client Side</a></li>
+                <li>Backend Code: <a href="#" target="_blank">Server Side</a></li>
               </ul>
             </div>
           `
@@ -112,9 +112,9 @@ export const portfolioItems = [
               <ul>
                 <li>Technologies used: HTML, CSS, Bootstrap, React, React-Router, ReactHook-Form, Axios, Node.js, Express.js, Mongodb, Firebase, Heroku.</li>
                 <li>Role: Frontend/Backend</li>
-                <li>View Online: <a href="https://watchshop-29145.web.app/" target="_blank">Watch Shope</a></li>
-                <li>Frontend Code: <a href="https://github.com/rahman-cmd/watch-shoop-client" target="_blank">Client Side</a></li>
-                <li>Backend Code: <a href="https://github.com/rahman-cmd/watchshop-server" target="_blank">Server Side</a></li>
+                <li>View Online: <a href="#" target="_blank">Watch Shope</a></li>
+                <li>Frontend Code: <a href="#" target="_blank">Client Side</a></li>
+                <li>Backend Code: <a href="#" target="_blank">Server Side</a></li>
               </ul>
             </div>
           `
@@ -136,9 +136,9 @@ export const portfolioItems = [
               <ul>
                 <li>Technologies used: HTML, CSS, Bootstrap, React, React-Router, ReactHook-Form, Axios, Node.js, Express.js, Mongodb, Firebase, Heroku.</li>
                 <li>Role: Frontend/Backend</li>
-                <li>View Online: <a href="https://watchshop-29145.web.app/" target="_blank">Watch Shope</a></li>
-                <li>Frontend Code: <a href="https://github.com/rahman-cmd/watch-shoop-client" target="_blank">Client Side</a></li>
-                <li>Backend Code: <a href="https://github.com/rahman-cmd/watchshop-server" target="_blank">Server Side</a></li>
+                <li>View Online: <a href="#" target="_blank">Watch Shope</a></li>
+                <li>Frontend Code: <a href="#" target="_blank">Client Side</a></li>
+                <li>Backend Code: <a href="#" target="_blank">Server Side</a></li>
               </ul>
             </div>
           `
@@ -160,9 +160,9 @@ export const portfolioItems = [
               <ul>
                 <li>Technologies used: HTML, CSS, Bootstrap, React, React-Router, ReactHook-Form, Axios, Node.js, Express.js, Mongodb, Firebase, Heroku.</li>
                 <li>Role: Frontend/Backend</li>
-                <li>View Online: <a href="https://watchshop-29145.web.app/" target="_blank">Watch Shope</a></li>
-                <li>Frontend Code: <a href="https://github.com/rahman-cmd/watch-shoop-client" target="_blank">Client Side</a></li>
-                <li>Backend Code: <a href="https://github.com/rahman-cmd/watchshop-server" target="_blank">Server Side</a></li>
+                <li>View Online: <a href="#" target="_blank">Watch Shope</a></li>
+                <li>Frontend Code: <a href="#" target="_blank">Client Side</a></li>
+                <li>Backend Code: <a href="#" target="_blank">Server Side</a></li>
               </ul>
             </div>
           `
@@ -184,9 +184,9 @@ export const portfolioItems = [
               <ul>
                 <li>Technologies used: HTML, CSS, Bootstrap, React, React-Router, ReactHook-Form, Axios, Node.js, Express.js, Mongodb, Firebase, Heroku.</li>
                 <li>Role: Frontend/Backend</li>
-                <li>View Online: <a href="https://watchshop-29145.web.app/" target="_blank">Watch Shope</a></li>
-                <li>Frontend Code: <a href="https://github.com/rahman-cmd/watch-shoop-client" target="_blank">Client Side</a></li>
-                <li>Backend Code: <a href="https://github.com/rahman-cmd/watchshop-server" target="_blank">Server Side</a></li>
+                <li>View Online: <a href="#" target="_blank">Watch Shope</a></li>
+                <li>Frontend Code: <a href="#" target="_blank">Client Side</a></li>
+                <li>Backend Code: <a href="#" target="_blank">Server Side</a></li>
               </ul>
             </div>
           `
@@ -208,9 +208,9 @@ export const portfolioItems = [
               <ul>
                 <li>Technologies used: HTML, CSS, Bootstrap, React, React-Router, ReactHook-Form, Axios, Node.js, Express.js, Mongodb, Firebase, Heroku.</li>
                 <li>Role: Frontend/Backend</li>
-                <li>View Online: <a href="https://watchshop-29145.web.app/" target="_blank">Watch Shope</a></li>
-                <li>Frontend Code: <a href="https://github.com/rahman-cmd/watch-shoop-client" target="_blank">Client Side</a></li>
-                <li>Backend Code: <a href="https://github.com/rahman-cmd/watchshop-server" target="_blank">Server Side</a></li>
+                <li>View Online: <a href="#" target="_blank">Watch Shope</a></li>
+                <li>Frontend Code: <a href="#" target="_blank">Client Side</a></li>
+                <li>Backend Code: <a href="#" target="_blank">Server Side</a></li>
               </ul>
             </div>
           `
@@ -232,9 +232,9 @@ export const portfolioItems = [
               <ul>
                 <li>Technologies used: HTML, CSS, Bootstrap, React, React-Router, ReactHook-Form, Axios, Node.js, Express.js, Mongodb, Firebase, Heroku.</li>
                 <li>Role: Frontend/Backend</li>
-                <li>View Online: <a href="https://watchshop-29145.web.app/" target="_blank">Watch Shope</a></li>
-                <li>Frontend Code: <a href="https://github.com/rahman-cmd/watch-shoop-client" target="_blank">Client Side</a></li>
-                <li>Backend Code: <a href="https://github.com/rahman-cmd/watchshop-server" target="_blank">Server Side</a></li>
+                <li>View Online: <a href="#" target="_blank">Watch Shope</a></li>
+                <li>Frontend Code: <a href="#" target="_blank">Client Side</a></li>
+                <li>Backend Code: <a href="#" target="_blank">Server Side</a></li>
               </ul>
             </div>
           `
@@ -256,9 +256,9 @@ export const portfolioItems = [
               <ul>
                 <li>Technologies used: HTML, CSS, Bootstrap, React, React-Router, ReactHook-Form, Axios, Node.js, Express.js, Mongodb, Firebase, Heroku.</li>
                 <li>Role: Frontend/Backend</li>
-                <li>View Online: <a href="https://watchshop-29145.web.app/" target="_blank">Watch Shope</a></li>
-                <li>Frontend Code: <a href="https://github.com/rahman-cmd/watch-shoop-client" target="_blank">Client Side</a></li>
-                <li>Backend Code: <a href="https://github.com/rahman-cmd/watchshop-server" target="_blank">Server Side</a></li>
+                <li>View Online: <a href="#" target="_blank">Watch Shope</a></li>
+                <li>Frontend Code: <a href="#" target="_blank">Client Side</a></li>
+                <li>Backend Code: <a href="#" target="_blank">Server Side</a></li>
               </ul>
             </div>
           `
@@ -280,9 +280,9 @@ export const portfolioItems = [
               <ul>
                 <li>Technologies used: HTML, CSS, Bootstrap, React, React-Router, ReactHook-Form, Axios, Node.js, Express.js, Mongodb, Firebase, Heroku.</li>
                 <li>Role: Frontend/Backend</li>
-                <li>View Online: <a href="https://watchshop-29145.web.app/" target="_blank">Watch Shope</a></li>
-                <li>Frontend Code: <a href="https://github.com/rahman-cmd/watch-shoop-client" target="_blank">Client Side</a></li>
-                <li>Backend Code: <a href="https://github.com/rahman-cmd/watchshop-server" target="_blank">Server Side</a></li>
+                <li>View Online: <a href="#" target="_blank">Watch Shope</a></li>
+                <li>Frontend Code: <a href="#" target="_blank">Client Side</a></li>
+                <li>Backend Code: <a href="#" target="_blank">Server Side</a></li>
               </ul>
             </div>
           `
@@ -304,9 +304,9 @@ export const portfolioItems = [
               <ul>
                 <li>Technologies used: HTML, CSS, Bootstrap, React, React-Router, ReactHook-Form, Axios, Node.js, Express.js, Mongodb, Firebase, Heroku.</li>
                 <li>Role: Frontend/Backend</li>
-                <li>View Online: <a href="https://watchshop-29145.web.app/" target="_blank">Watch Shope</a></li>
-                <li>Frontend Code: <a href="https://github.com/rahman-cmd/watch-shoop-client" target="_blank">Client Side</a></li>
-                <li>Backend Code: <a href="https://github.com/rahman-cmd/watchshop-server" target="_blank">Server Side</a></li>
+                <li>View Online: <a href="#" target="_blank">Watch Shope</a></li>
+                <li>Frontend Code: <a href="#" target="_blank">Client Side</a></li>
+                <li>Backend Code: <a href="#" target="_blank">Server Side</a></li>
               </ul>
             </div>
           `
@@ -328,9 +328,9 @@ export const portfolioItems = [
               <ul>
                 <li>Technologies used: HTML, CSS, Bootstrap, React, React-Router, ReactHook-Form, Axios, Node.js, Express.js, Mongodb, Firebase, Heroku.</li>
                 <li>Role: Frontend/Backend</li>
-                <li>View Online: <a href="https://watchshop-29145.web.app/" target="_blank">Watch Shope</a></li>
-                <li>Frontend Code: <a href="https://github.com/rahman-cmd/watch-shoop-client" target="_blank">Client Side</a></li>
-                <li>Backend Code: <a href="https://github.com/rahman-cmd/watchshop-server" target="_blank">Server Side</a></li>
+                <li>View Online: <a href="#" target="_blank">Watch Shope</a></li>
+                <li>Frontend Code: <a href="#" target="_blank">Client Side</a></li>
+                <li>Backend Code: <a href="#" target="_blank">Server Side</a></li>
               </ul>
             </div>
           `
@@ -352,9 +352,9 @@ export const portfolioItems = [
               <ul>
                 <li>Technologies used: HTML, CSS, Bootstrap, React, React-Router, ReactHook-Form, Axios, Node.js, Express.js, Mongodb, Firebase, Heroku.</li>
                 <li>Role: Frontend/Backend</li>
-                <li>View Online: <a href="https://watchshop-29145.web.app/" target="_blank">Watch Shope</a></li>
-                <li>Frontend Code: <a href="https://github.com/rahman-cmd/watch-shoop-client" target="_blank">Client Side</a></li>
-                <li>Backend Code: <a href="https://github.com/rahman-cmd/watchshop-server" target="_blank">Server Side</a></li>
+                <li>View Online: <a href="#" target="_blank">Watch Shope</a></li>
+                <li>Frontend Code: <a href="#" target="_blank">Client Side</a></li>
+                <li>Backend Code: <a href="#" target="_blank">Server Side</a></li>
               </ul>
             </div>
           `

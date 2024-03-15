@@ -1,11 +1,12 @@
 <template>
-  <section class="home-section align-items-center " id="home">
+  <section class="home-section align-items-center" id="home">
     <div class="container">
       <div class="row align-items-center">
         <div class="home-text">
           <p>Hello I'm</p>
           <h1>Muhammad Maruf</h1>
-       <h2><span class="typejs" ref="typed"></span></h2>
+          <h2><span class="typejs" ref="typed"></span></h2>
+          <!-- <h2>Frontend Developer</h2> -->
           <router-link to="/portfolio" class="btn link-item"
             >portfolio</router-link
           >
@@ -22,26 +23,25 @@
 </template>
 
 <script>
-import Typed from 'typed.js';
+import Typed from "typed.js";
 
 export default {
-  name: 'Home',
+  name: "Home",
   mounted() {
     // Initialize Typed.js
     this.typed = new Typed(this.$refs.typed, {
       strings: [
-        'Frontend Developer (React)',
-        'Full Stack Developer (MERN)',
-        'Frontend Developer (Vue)',
-        'Android App Developer (React Native)'
+        "Frontend Developer (React)",
+        "Software Developer (MERN)",
+        "Android Developer (React Native)",
       ],
-      typeSpeed: 50,
-      loop: true
+      typeSpeed: 100,
+      loop: true,
     });
   },
   beforeDestroy() {
     // Destroy Typed.js instance to prevent memory leaks
     this.typed.destroy();
-  }
+  },
 };
 </script>

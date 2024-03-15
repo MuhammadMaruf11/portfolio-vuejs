@@ -22,7 +22,7 @@
 
     <div class="main">
       <header class="header" :class="{ active: isHeaderActive }">
-        <div class="container">
+        <div class="">
           <div class="row flex-end">
             <button type="button" class="nav-toggler" @click="toggleNavbar">
               <span></span>
