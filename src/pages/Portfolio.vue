@@ -35,7 +35,7 @@
       <div class="pp-content">
         <div class="pp-header">
           <button class="btn pp-close" @click="hidePortfolioPopup">
-        <i class='fas fa-times'></i>
+            <i class="fas fa-times"></i>
           </button>
           <div class="pp-thumbnail">
             <img
@@ -46,7 +46,100 @@
           <h3>{{ portfolioItems[selectedItem].title }}</h3>
         </div>
         <div class="pp-body">
-          <div v-html="portfolioItems[selectedItem].details"></div>
+          <!-- Render description -->
+          <div class="description">
+            <p>
+              Features:
+              {{ portfolioItems[selectedItem].details.description.features }}
+            </p>
+            <ul
+              v-if="
+                portfolioItems[selectedItem].details.description.adminActions
+              "
+            >
+              <li
+                v-for="(action, actionIndex) in portfolioItems[selectedItem]
+                  .details.description.adminActions"
+                :key="actionIndex"
+              >
+                {{ action }}
+              </li>
+            </ul>
+          </div>
+
+          <!-- Render general info -->
+          <div class="general-info">
+            <ul>
+              <li>
+                Technologies used:
+                {{
+                  portfolioItems[selectedItem].details.generalInfo
+                    .technologiesUsed
+                }}
+              </li>
+              <li>
+                Role:
+                {{ portfolioItems[selectedItem].details.generalInfo.role }}
+              </li>
+              <li
+                v-if="
+                  portfolioItems[selectedItem].details.generalInfo.viewOnline
+                "
+              >
+                View Online:
+                <a
+                  :href="
+                    portfolioItems[selectedItem].details.generalInfo.viewOnline
+                      .url
+                  "
+                  target="_blank"
+                >
+                  {{
+                    portfolioItems[selectedItem].details.generalInfo.viewOnline
+                      .text
+                  }}
+                </a>
+              </li>
+              <li
+                v-if="
+                  portfolioItems[selectedItem].details.generalInfo.frontendCode
+                "
+              >
+                Frontend Code:
+                <a
+                  :href="
+                    portfolioItems[selectedItem].details.generalInfo
+                      .frontendCode.url
+                  "
+                  target="_blank"
+                >
+                  {{
+                    portfolioItems[selectedItem].details.generalInfo
+                      .frontendCode.text
+                  }}
+                </a>
+              </li>
+              <li
+                v-if="
+                  portfolioItems[selectedItem].details.generalInfo.backendCode
+                "
+              >
+                Backend Code:
+                <a
+                  :href="
+                    portfolioItems[selectedItem].details.generalInfo.backendCode
+                      .url
+                  "
+                  target="_blank"
+                >
+                  {{
+                    portfolioItems[selectedItem].details.generalInfo.backendCode
+                      .text
+                  }}
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -70,15 +163,15 @@ export default {
       this.selectedItem = index;
       this.popupVisible = true;
       document.body.classList.add("hide-scrolling");
-      document.querySelector('#portfolio').classList.add("fade-out");
-      document.querySelector('.nav-toggler').style.display = 'none';
+      document.querySelector("#portfolio").classList.add("fade-out");
+      document.querySelector(".nav-toggler").style.display = "none";
     },
     hidePortfolioPopup() {
       this.selectedItem = null;
       this.popupVisible = false;
       document.body.classList.remove("hide-scrolling");
-      document.querySelector('#portfolio').classList.remove("fade-out");
-      document.querySelector('.nav-toggler').style.display = 'flex';
+      document.querySelector("#portfolio").classList.remove("fade-out");
+      document.querySelector(".nav-toggler").style.display = "flex";
     },
   },
 };
