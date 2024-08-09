@@ -71,14 +71,18 @@
           <div class="general-info">
             <ul>
               <li>
-                Technologies used:
-                {{
-                  portfolioItems[selectedItem].details.generalInfo
-                    .technologiesUsed
-                }}
+                <u>Technologies used:</u>
+                &nbsp;
+                <em>
+                  {{
+                    portfolioItems[selectedItem].details.generalInfo
+                      .technologiesUsed
+                  }}</em
+                >
               </li>
               <li>
-                Role:
+                <u>Role:</u>
+                &nbsp;
                 {{ portfolioItems[selectedItem].details.generalInfo.role }}
               </li>
               <li

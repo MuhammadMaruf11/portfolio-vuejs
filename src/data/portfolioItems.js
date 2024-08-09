@@ -63,46 +63,22 @@ export const portfolioItems = [
     }
   },
   {
-    title: 'Photobook Editor',
-    imageSrc: 'img/work-sample/photobook.webp',
+    title: 'USA Under Writer',
+    imageSrc: 'img/work-sample/usa-web.webp',
     details: {
       description: {
-        features: "Photobook editor website. Users can order services and check their previous order history with status (pending, shipping, or done). This website has a functional admin panel with restricted access (only admin can access) section where admin can:",
-        adminActions: [
-          "Add services",
-          "Delete any existing services",
-          "Update the state of customer's order",
-          "Make a new admin",
-          "Customize editor"
-        ]
+        features: "Company Portfolio website. Users can view company profile, works, and career information. This website has no admin panel; it is fully frontend-focused."
       },
       generalInfo: {
-        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery, PHP, Laravel, MySQL, MariaDB",
+        technologiesUsed: "HTML, CSS, TailwindCSS, JavaScript, ReactJs, NextJs",
         role: "Frontend",
         viewOnline: {
-          text: "Coming Soon",
+          text: "USA Under Writer",
+          url: "https://usa-website-design.netlify.app/"
         },
-      }
-    }
-  },
-  {
-    title: 'Perfume ecommerce Website',
-    imageSrc: 'img/work-sample/perfume.webp',
-    details: {
-      description: {
-        features: "Perfume ecommerce website. Users can order services and check their previous order history with status (pending, shipping, or done). This website has a functional admin panel with restricted access (only admin can access) section where admin can:",
-        adminActions: [
-          "Add services",
-          "Delete any existing services",
-          "Update the state of customer's order",
-          "Make a new admin"
-        ]
-      },
-      generalInfo: {
-        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, React, React-Router, TypeScript, React-redux, ReactHook-Form, Axios, Node.js, Express.js, Mongodb, Mongoose.",
-        role: "Frontend",
-        viewOnline: {
-          text: "Coming Soon",
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/usa-website-design"
         },
       }
     }
@@ -125,7 +101,7 @@ export const portfolioItems = [
         role: "Frontend",
         viewOnline: {
           text: "Banking Api Provider",
-          url: "https://banking-api.netlify.app/admin"
+          url: "https://banking-api.netlify.app"
         },
         frontendCode: {
           text: "Client Side",
@@ -135,31 +111,106 @@ export const portfolioItems = [
     }
   },
   {
-    title: 'Dream View Electronics',
-    imageSrc: 'img/work-sample/dreamview.webp',
+    title: 'Pickvisa (Paused)',
+    imageSrc: 'img/work-sample/pick-visa.webp',
     details: {
       description: {
-        features: "Product showcase website. Users can view products and get an idea about Dream View Electronics and can send mail to admin. This website has a functional admin panel with restricted access (only admin can access) section where admin can:",
-        adminActions: [
-          "Add product",
-          "Delete products",
-          "Update products",
-          "View Mail/Message",
-          "Delete Mail/Message single or multiple"
-        ]
+        features: "Travels website. Frontend only, users can view the client website to get an idea about their company."
       },
       generalInfo: {
-        technologiesUsed: "HTML, CSS, Tailwind CSS, React, React-Router, Axios, React Toastify, Swiper, Wow Js, React Fast Marquee, Animate Css, React Modal, React Confirm Alert, Node Js, Express Js, Mongodb, Mongoose, Bcrypt, Cors, JSON Web Token, Multer, Node Mailer, Passport, Passport-jwt",
-        role: "MERN Stack",
+        technologiesUsed: "HTML, CSS, SCSS, Bootstrap, JavaScript, jQuery, Wow Js, Animate Css, Metis Menu",
+        role: "Frontend",
         viewOnline: {
-          text: "Dream View Electronics",
-          url: "https://dreamviewelectronics.com/"
+          text: "Pickvisa",
+          url: "https://pick-visa.netlify.app/"
         },
         frontendCode: {
-          text: "Private Code",
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/pickvisa"
+        }
+      }
+    }
+  },
+  {
+    title: 'Bill Token',
+    imageSrc: 'img/work-sample/biltoken.webp',
+    details: {
+      description: {
+        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, SCSS, Bootstrap, JavaScript, jQuery, Wow Js, Animate Css, Metis Menu",
+        role: "Frontend",
+        viewOnline: {
+          text: "Bill Token",
+          url: "https://muhammadmaruf11.github.io/billtoken/"
         },
-        backendCode: {
-          text: "Private Code",
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/billtoken"
+        }
+      }
+    }
+  },
+  {
+    title: 'Free Template',
+    imageSrc: 'img/work-sample/piroll.webp',
+    details: {
+      description: {
+        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, SCSS, Bootstrap, JavaScript, jQuery, Skill Bar, Veno Box, Swiper, Odometer, Mean Menu",
+        role: "Frontend",
+        viewOnline: {
+          text: "Free Template",
+          url: "https://muhammadmaruf11.github.io/Piroll/"
+        },
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/Piroll"
+        }
+      }
+    }
+  },
+  {
+    title: 'Aleafina',
+    imageSrc: 'img/work-sample/aleafina.webp',
+    details: {
+      description: {
+        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, SCSS, Bootstrap, JavaScript, jQuery.",
+        role: "Frontend",
+        viewOnline: {
+          text: "Aleafina",
+          url: "https://aleafina.netlify.app/"
+        },
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/aleafina"
+        }
+      }
+    }
+  },
+  {
+    title: 'Source Direct',
+    imageSrc: 'img/work-sample/source-direct.webp',
+    details: {
+      description: {
+        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery, Mean Menu",
+        role: "Frontend",
+        viewOnline: {
+          text: "Aleafina",
+          url: "https://source-direct.netlify.app/"
+        },
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/source-direct"
         }
       }
     }
@@ -205,33 +256,6 @@ export const portfolioItems = [
           text: "E-commerce Template",
           url: "https://ecommerce.techvaultltd.com/"
         },
-        frontendCode: {
-          text: "Private Code",
-        },
-        backendCode: {
-          text: "Private Code",
-        }
-      }
-    }
-  },
-  {
-    title: 'Rex Roth',
-    imageSrc: 'img/work-sample/rexroth.webp',
-    details: {
-      description: {
-        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
-      },
-      generalInfo: {
-        technologiesUsed: "HTML, CSS, SCSS, Bootstrap, JavaScript, jQuery, Veno Box",
-        role: "Frontend",
-        viewOnline: {
-          text: "Rex Roth",
-          url: "http://maruf.rf.gd/rexroth/"
-        },
-        frontendCode: {
-          text: "Client Side",
-          url: "https://github.com/MuhammadMaruf11/Rex-Roth"
-        }
       }
     }
   },
@@ -256,23 +280,147 @@ export const portfolioItems = [
     }
   },
   {
-    title: 'Bill Token',
-    imageSrc: 'img/work-sample/biltoken.webp',
+    title: 'School and College Management',
+    imageSrc: 'img/work-sample/clg-management.webp',
+    details: {
+      description: {
+        features: "School and college management system with website. Users can create their profile and check their previous order history with status. This website has a functional admin panel with restricted access (only admin can access) section where admin can:",
+        adminActions: [
+          "Add ID",
+          "Update ID",
+          "Delete ID",
+          "Manage whole site",
+          "Make a new admin"
+        ]
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery, Wow Js, Animate Css, PHP, CodeIgniter, MySQL.",
+        role: "Frontend",
+        viewOnline: {
+          text: "College Management",
+          url: "https://institutionamanagement.techvaultltd.com/"
+        },
+      }
+    }
+  },
+  {
+    title: 'Dream View Electronics',
+    imageSrc: 'img/work-sample/dreamview.webp',
+    details: {
+      description: {
+        features: "Product showcase website. Users can view products and get an idea about Dream View Electronics and can send mail to admin. This website has a functional admin panel with restricted access (only admin can access) section where admin can:",
+        adminActions: [
+          "Add product",
+          "Delete products",
+          "Update products",
+          "View Mail/Message",
+          "Delete Mail/Message single or multiple"
+        ]
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, Tailwind CSS, React, React-Router, Axios, React Toastify, Swiper, Wow Js, React Fast Marquee, Animate Css, React Modal, React Confirm Alert, Node Js, Express Js, Mongodb, Mongoose, Bcrypt, Cors, JSON Web Token, Multer, Node Mailer, Passport, Passport-jwt",
+        role: "MERN Stack",
+        viewOnline: {
+          text: "Dream View Electronics",
+          url: "https://dreamviewelectronics.com/"
+        },
+        frontendCode: {
+          text: "Private Code",
+        },
+        backendCode: {
+          text: "Private Code",
+        }
+      }
+    }
+  },
+  {
+    title: 'Smart AI Remove BG (ongoing)',
+    imageSrc: 'img/work-sample/remove-bg.webp',
+    details: {
+      description: {
+        features: "Background remover website. Users can upload image to remove background. This website has a functional admin panel with restricted access (only admin can access) section where admin can:",
+        adminActions: [
+          "Add plan",
+          "Delete plan",
+          "Update plan",
+        ]
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, Bootstrap, TypeScript, React, React Bootstrap, React-Router, Axios, React Toastify, React Confirm Alert, React Tabs",
+        role: "Frontend",
+        viewOnline: {
+          text: "Backend Not Connected",
+          url: "https://smart-ai-remove-bg.netlify.app/"
+        },
+        frontendCode: {
+          text: "Private Code",
+        },
+      }
+    }
+  },
+  {
+    title: 'Rex Roth',
+    imageSrc: 'img/work-sample/rexroth.webp',
     details: {
       description: {
         features: "Client website. Frontend only, users can view the client website to get an idea about their company."
       },
       generalInfo: {
-        technologiesUsed: "HTML, CSS, SCSS, Bootstrap, JavaScript, jQuery, Wow Js, Metis Menu",
+        technologiesUsed: "HTML, CSS, SCSS, Bootstrap, JavaScript, jQuery, Veno Box",
         role: "Frontend",
         viewOnline: {
-          text: "Bill Token",
-          url: "https://muhammadmaruf11.github.io/billtoken/"
+          text: "Rex Roth",
+          url: "https://rex-roth.netlify.app/"
         },
         frontendCode: {
           text: "Client Side",
-          url: "https://github.com/MuhammadMaruf11/billtoken"
+          url: "https://github.com/MuhammadMaruf11/Rex-Roth"
         }
+      }
+    }
+  },
+  {
+    title: 'Photobook Editor',
+    imageSrc: 'img/work-sample/photobook.webp',
+    details: {
+      description: {
+        features: "Photobook editor website. Users can order services and check their previous order history with status (pending, shipping, or done). This website has a functional admin panel with restricted access (only admin can access) section where admin can:",
+        adminActions: [
+          "Add services",
+          "Delete any existing services",
+          "Update the state of customer's order",
+          "Make a new admin",
+          "Customize editor"
+        ]
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery, PHP, Laravel, MySQL, MariaDB",
+        role: "Frontend",
+        viewOnline: {
+          text: "Coming Soon",
+        },
+      }
+    }
+  },
+  {
+    title: 'Perfume ecommerce Website',
+    imageSrc: 'img/work-sample/perfume.webp',
+    details: {
+      description: {
+        features: "Perfume ecommerce website. Users can order services and check their previous order history with status (pending, shipping, or done). This website has a functional admin panel with restricted access (only admin can access) section where admin can:",
+        adminActions: [
+          "Add services",
+          "Delete any existing services",
+          "Update the state of customer's order",
+          "Make a new admin"
+        ]
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, React, React-Router, TypeScript, React-redux, ReactHook-Form, Axios, Node.js, Express.js, Mongodb, Mongoose.",
+        role: "Frontend",
+        viewOnline: {
+          text: "Coming Soon",
+        },
       }
     }
   },
@@ -293,71 +441,6 @@ export const portfolioItems = [
     }
   },
   {
-    title: 'Free Template',
-    imageSrc: 'img/work-sample/piroll.webp',
-    details: {
-      description: {
-        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
-      },
-      generalInfo: {
-        technologiesUsed: "HTML, CSS, SCSS, Bootstrap, JavaScript, jQuery, Skill Bar, Veno Box, Swiper, Odometer, Mean Menu",
-        role: "Frontend",
-        viewOnline: {
-          text: "Free Template",
-          url: "https://muhammadmaruf11.github.io/Piroll/"
-        },
-        frontendCode: {
-          text: "Client Side",
-          url: "https://github.com/MuhammadMaruf11/Piroll"
-        }
-      }
-    }
-  },
-  {
-    title: 'Aleafina',
-    imageSrc: 'img/work-sample/aleafina.webp',
-    details: {
-      description: {
-        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
-      },
-      generalInfo: {
-        technologiesUsed: "HTML, CSS, SCSS, Bootstrap, JavaScript, jQuery.",
-        role: "Frontend",
-        viewOnline: {
-          text: "Aleafina",
-          url: "https://aleafina.netlify.app/"
-        },
-        frontendCode: {
-          text: "Client Side",
-          url: "https://github.com/MuhammadMaruf11/aleafina"
-        }
-      }
-    }
-  }, {
-    title: 'School and College Management',
-    imageSrc: 'img/work-sample/clg-management.webp',
-    details: {
-      description: {
-        features: "School and college management system with website. Users can create their profile and check their previous order history with status. This website has a functional admin panel with restricted access (only admin can access) section where admin can:",
-        adminActions: [
-          "Add ID",
-          "Update ID",
-          "Delete ID",
-          "Manage whole site",
-          "Make a new admin"
-        ]
-      },
-      generalInfo: {
-        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery, PHP, CodeIgniter, MySQL.",
-        role: "Frontend",
-        viewOnline: {
-          text: "College Management",
-          url: "https://institutionamanagement.techvaultltd.com/"
-        },
-      }
-    }
-  },
-  {
     title: 'Web Solution International Network',
     imageSrc: 'img/work-sample/wsin.webp',
     details: {
@@ -370,7 +453,7 @@ export const portfolioItems = [
         ]
       },
       generalInfo: {
-        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery, PHP, Laravel, MySQL.",
+        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery, Wow Js, Animate Css, PHP, Laravel, MySQL.",
         role: "Frontend",
         viewOnline: {
           text: "Coming Soon",
