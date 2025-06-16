@@ -87,29 +87,15 @@
             id="experience"
           >
             <div class="timeline">
-              <div class="timeline-item">
-                <span class="date">August 2024 - Persent</span>
-                <h4>Frontend Developer</h4>
-                <p>Go Devs Ltd.</p>
-
-                <span
-                  >213, Doric Hakim Tower, Atish Deepankarar Road, Dhaka</span
-                >
-                <p>
-                  I have thrived as a frontend web developer at Go Devs Ltd.,
-                  consistently delivering successful projects.
-                </p>
-              </div>
-              <div class="timeline-item">
-                <span class="date">October 2022 - July 2024</span>
-                <h4>Frontend Developer</h4>
-                <p>Digital Decoder Ltd.</p>
-
-                <span>E-9/6 Naya Paltan, China Town, Dhaka - 1000</span>
-                <p>
-                  I worked as a successful frontend web developer at Digital
-                  Decoder Ltd. for 1 year and 10 months.
-                </p>
+              <div
+                v-for="(item, index) in experiences"
+                :key="index"
+                class="timeline-item"
+              >
+                <span class="date">{{ item.date }}</span>
+                <h4>{{ item.position }}</h4>
+                <p>{{ item.company }}</p>
+                <small>{{ item.location }}</small>
               </div>
             </div>
           </div>
@@ -163,11 +149,13 @@
 </template>
 
 <script>
+import { experiences } from "../data/experiences";
 export default {
   name: "About",
   data() {
     return {
-      activeTab: "experience", // Set the default active tab
+      experiences,
+      activeTab: "experience",
     };
   },
   methods: {

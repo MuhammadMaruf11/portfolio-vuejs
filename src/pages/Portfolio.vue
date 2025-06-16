@@ -16,7 +16,9 @@
           <div class="protfolio-item-thumbnail">
             <img loading="lazy" :src="item.imageSrc" :alt="item.title" />
           </div>
-          <h3 class="protfolio-item-title">{{ item.title }}</h3>
+          <h3 class="protfolio-item-title">
+            {{ index + 1 }}. {{ item.title }}
+          </h3>
           <a
             type="button"
             class="btn view-project-btn"

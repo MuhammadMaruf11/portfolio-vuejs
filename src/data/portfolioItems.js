@@ -63,6 +63,27 @@ export const portfolioItems = [
     }
   },
   {
+    title: 'Skillshoot',
+    imageSrc: 'img/work-sample/skillshoot.webp',
+    details: {
+      description: {
+        features: "Company Portfolio website. Users can view company profile, works, and career information. This website has no admin panel; it is fully frontend-focused."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, TypeScript, ReactJs, NextJs, Motion, Animate CSS",
+        role: "Frontend",
+        viewOnline: {
+          text: "Skillshoot",
+          url: "https://skill-shoot-task.netlify.app/"
+        },
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/skill-shoot"
+        },
+      }
+    }
+  },
+  {
     title: 'USA Under Writer',
     imageSrc: 'img/work-sample/usa-web.webp',
     details: {
@@ -84,7 +105,7 @@ export const portfolioItems = [
     }
   },
   {
-    title: 'Banking API Provider (Paused)',
+    title: 'Banking API (Paused)',
     imageSrc: 'img/work-sample/banking-api.webp',
     details: {
       description: {
@@ -111,6 +132,27 @@ export const portfolioItems = [
     }
   },
   {
+    title: 'Hashrid',
+    imageSrc: 'img/work-sample/hashrid.webp',
+    details: {
+      description: {
+        features: "This is a task and made by raw HTML and CSS."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS",
+        role: "Frontend",
+        viewOnline: {
+          text: "Hashrid",
+          url: "https://hashrid.netlify.app/"
+        },
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/hashrid"
+        }
+      }
+    }
+  },
+  {
     title: 'Pickvisa (Paused)',
     imageSrc: 'img/work-sample/pick-visa.webp',
     details: {
@@ -127,6 +169,192 @@ export const portfolioItems = [
         frontendCode: {
           text: "Client Side",
           url: "https://github.com/MuhammadMaruf11/pickvisa"
+        }
+      }
+    }
+  },
+  {
+    title: 'Sohojogi',
+    imageSrc: 'img/work-sample/sohojogi.webp',
+    details: {
+      description: {
+        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS,  Bootstrap, JavaScript",
+        role: "Frontend",
+        viewOnline: {
+          text: "Sohojogi",
+          url: "https://sohojogi.netlify.app/"
+        },
+        frontendCode: {
+          text: "Private Code",
+        }
+      }
+    }
+  },
+  {
+    title: 'Qanun',
+    imageSrc: 'img/work-sample/qanun.webp',
+    details: {
+      description: {
+        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS,  Bootstrap, JavaScript",
+        role: "Frontend",
+        viewOnline: {
+          text: "Qanun",
+          url: "https://qanun.netlify.app/"
+        },
+        frontendCode: {
+          text: "Private Code",
+        }
+      }
+    }
+  },
+  {
+    title: 'Equity Real Estate',
+    imageSrc: 'img/work-sample/equity-real-estate.webp',
+    details: {
+      description: {
+        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS,  Bootstrap, JavaScript, jQuery, AOS Js, Animate Css",
+        role: "Frontend",
+        viewOnline: {
+          text: "Equity Real Estate",
+          url: "https://equity-real-estate.netlify.app/"
+        },
+        frontendCode: {
+          text: "Private Code",
+        }
+      }
+    }
+  },
+  {
+    title: 'Ecommerce shoe/cloth',
+    imageSrc: 'img/work-sample/ecommerce-go-devs.webp',
+    details: {
+      description: {
+        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery",
+        role: "Frontend",
+        viewOnline: {
+          text: "Ecommerce shoe/cloth",
+          url: "https://go-devs-ecommerce.netlify.app/"
+        },
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/go-devs-ecommerce"
+        }
+      }
+    }
+  },
+  {
+    title: 'Nazmul Avi',
+    imageSrc: 'img/work-sample/nazmul-avi.webp',
+    details: {
+      description: {
+        features: "Portfolio website. Frontend only, users can view the client website to get an idea about their company."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery",
+        role: "Frontend",
+        viewOnline: {
+          text: "Nazmul Avi",
+          url: "https://nazmul-avi-portfolio.netlify.app/"
+        },
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/nazmul-avi"
+        }
+      }
+    }
+  },
+  {
+    title: 'Maria Trusted Purity',
+    imageSrc: 'img/work-sample/maria-trusted-purity.webp',
+    details: {
+      description: {
+        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery",
+        role: "Frontend",
+        viewOnline: {
+          text: "Maria Trusted Purity",
+          url: "https://maria-group-of-company.netlify.app/"
+        },
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/maria-trusted-purity"
+        }
+      }
+    }
+  },
+  {
+    title: 'School Management',
+    imageSrc: 'img/work-sample/school-management.webp',
+    details: {
+      description: {
+        features: "This is a School management website public view only."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS",
+        role: "Frontend",
+        viewOnline: {
+          text: "School Management",
+          url: "https://go-devs-school-management-system.netlify.app/"
+        },
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/LMS"
+        }
+      }
+    }
+  },
+  {
+    title: 'Naquib Khan',
+    imageSrc: 'img/work-sample/naquib-khan.webp',
+    details: {
+      description: {
+        features: "This is a Portfolio website."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery, Canvas",
+        role: "Frontend",
+        viewOnline: {
+          text: "Naquib Khan",
+          url: "https://nquib-khan.netlify.app/"
+        },
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/naquib-khan"
+        }
+      }
+    }
+  },
+  {
+    title: 'Newspaper',
+    imageSrc: 'img/work-sample/newspaper.webp',
+    details: {
+      description: {
+        features: "This is a Newspaper website."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery",
+        role: "Frontend",
+        viewOnline: {
+          text: "Newspaper",
+          url: "https://go-devs-news-bangla.netlify.app/"
+        },
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/go-devs-news-bangla"
         }
       }
     }
@@ -205,8 +433,8 @@ export const portfolioItems = [
         technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery, Mean Menu",
         role: "Frontend",
         viewOnline: {
-          text: "Aleafina",
-          url: "https://source-direct.netlify.app/"
+          text: "Source Direct",
+          url: "https://sourcedirectint.com/"
         },
         frontendCode: {
           text: "Client Side",
@@ -236,26 +464,22 @@ export const portfolioItems = [
     }
   },
   {
-    title: 'E-commerce',
-    imageSrc: 'img/work-sample/ecommerce.webp',
+    title: 'Digital Decoder Ltd.',
+    imageSrc: 'img/work-sample/digital-decoder-ltd.webp',
     details: {
       description: {
-        features: "E-commerce template. This is a single vendor ecommerce website which has all kinds of features. Users can order services and check their previous order history with status (pending, shipping, or done). This website has a functional admin panel with restricted access (only admin can access) section where admin can:",
-        adminActions: [
-          "Add services",
-          "Delete any existing services",
-          "Update the state of customer's order",
-          "Make a new admin",
-          "and many more..."
-        ]
+        features: "Company Portfolio website. Users can view company profile, works, and career information. This website has no admin panel; it is fully frontend-focused",
       },
       generalInfo: {
-        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery, PHP, Laravel, MySQL, MariaDB",
+        technologiesUsed: "HTML, CSS, SCSS, Bootstrap, JavaScript, ReactJs, NextJs, Swiper, Animate Css, Wow Js, Particle Js",
         role: "Frontend",
         viewOnline: {
-          text: "E-commerce Template",
-          url: "https://ecommerce.techvaultltd.com/"
+          text: "Musaifa Agro",
+          url: "https://digitaldecoderzzzz.netlify.app/"
         },
+        frontendCode: {
+          text: "Private Code",
+        }
       }
     }
   },
@@ -276,30 +500,6 @@ export const portfolioItems = [
         frontendCode: {
           text: "Private Code",
         }
-      }
-    }
-  },
-  {
-    title: 'School and College Management',
-    imageSrc: 'img/work-sample/clg-management.webp',
-    details: {
-      description: {
-        features: "School and college management system with website. Users can create their profile and check their previous order history with status. This website has a functional admin panel with restricted access (only admin can access) section where admin can:",
-        adminActions: [
-          "Add ID",
-          "Update ID",
-          "Delete ID",
-          "Manage whole site",
-          "Make a new admin"
-        ]
-      },
-      generalInfo: {
-        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery, Wow Js, Animate Css, PHP, CodeIgniter, MySQL.",
-        role: "Frontend",
-        viewOnline: {
-          text: "College Management",
-          url: "https://institutionamanagement.techvaultltd.com/"
-        },
       }
     }
   },
@@ -334,7 +534,7 @@ export const portfolioItems = [
     }
   },
   {
-    title: 'Smart AI Remove BG (ongoing)',
+    title: 'AI Remove BG (ongoing)',
     imageSrc: 'img/work-sample/remove-bg.webp',
     details: {
       description: {
@@ -380,6 +580,32 @@ export const portfolioItems = [
     }
   },
   {
+    title: 'WSIN Globe',
+    imageSrc: 'img/work-sample/wsin.webp',
+    details: {
+      description: {
+        features: "Company website. Users can view products and company profile, and can contact the company. This website has a functional admin panel with restricted access (only admin can access) section where admin can:",
+        adminActions: [
+          "Add Product",
+          "Delete Product",
+          "Update Product"
+        ]
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery, Wow Js, Animate Css, PHP, Laravel, MySQL.",
+        role: "Frontend",
+        viewOnline: {
+          text: "WSIN Globe",
+          url: "https://web-solution-international-network.netlify.app/",
+        },
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/WSIN",
+        },
+      }
+    }
+  },
+  {
     title: 'Photobook Editor',
     imageSrc: 'img/work-sample/photobook.webp',
     details: {
@@ -403,7 +629,7 @@ export const portfolioItems = [
     }
   },
   {
-    title: 'Perfume ecommerce Website',
+    title: 'Perfume ecommerce',
     imageSrc: 'img/work-sample/perfume.webp',
     details: {
       description: {
@@ -441,26 +667,52 @@ export const portfolioItems = [
     }
   },
   {
-    title: 'Web Solution International Network',
-    imageSrc: 'img/work-sample/wsin.webp',
+    title: 'College Management',
+    imageSrc: 'img/work-sample/clg-management.webp',
     details: {
       description: {
-        features: "Company website. Users can view products and company profile, and can contact the company. This website has a functional admin panel with restricted access (only admin can access) section where admin can:",
+        features: "School and college management system with website. Users can create their profile and check their previous order history with status. This website has a functional admin panel with restricted access (only admin can access) section where admin can:",
         adminActions: [
-          "Add Product",
-          "Delete Product",
-          "Update Product"
+          "Add ID",
+          "Update ID",
+          "Delete ID",
+          "Manage whole site",
+          "Make a new admin"
         ]
       },
       generalInfo: {
-        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery, Wow Js, Animate Css, PHP, Laravel, MySQL.",
+        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery, Wow Js, Animate Css, PHP, CodeIgniter, MySQL.",
         role: "Frontend",
         viewOnline: {
-          text: "Coming Soon",
+          text: "College Management",
+          url: "https://institutionamanagement.techvaultltd.com/"
         },
       }
     }
-  }
+  },
+  {
+    title: 'E-commerce',
+    imageSrc: 'img/work-sample/ecommerce.webp',
+    details: {
+      description: {
+        features: "E-commerce template. This is a single vendor ecommerce website which has all kinds of features. Users can order services and check their previous order history with status (pending, shipping, or done). This website has a functional admin panel with restricted access (only admin can access) section where admin can:",
+        adminActions: [
+          "Add services",
+          "Delete any existing services",
+          "Update the state of customer's order",
+          "Make a new admin",
+          "and many more..."
+        ]
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery, PHP, Laravel, MySQL, MariaDB",
+        role: "Frontend",
+        viewOnline: {
+          text: "Not Available",
+        },
+      }
+    }
+  },
 ]
 
 
