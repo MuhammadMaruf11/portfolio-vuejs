@@ -1,5 +1,67 @@
 export const portfolioItems = [
   {
+    title: 'Tech Vault Ltd.',
+    imageSrc: 'img/work-sample/techvault.webp',
+    details: {
+      description: {
+        features: "Company Portfolio website. Users can view company profile, works, career and so on. This website has no admin panel; this is a fully frontend-focused website and has both light and dark modes."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, Bootstrap, React, React-Router, Animate Css, Wow Js, Swiper",
+        role: "Frontend",
+        viewOnline: {
+          text: "Tech Vault Ltd.",
+          url: "https://tech-vault.netlify.app/"
+        },
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/tech-vault"
+        },
+      }
+    }
+  },
+  {
+    title: 'Skillshoot',
+    imageSrc: 'img/work-sample/skillshoot.webp',
+    details: {
+      description: {
+        features: "Company Portfolio website. Users can view company profile, works, and career information. This website has no admin panel; it is fully frontend-focused."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, TypeScript, ReactJs, NextJs, Motion, Animate CSS",
+        role: "Frontend",
+        viewOnline: {
+          text: "Skillshoot",
+          url: "https://skill-shoot-task.netlify.app/"
+        },
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/skill-shoot"
+        },
+      }
+    }
+  },
+  {
+    title: 'Digital Decoder Ltd.',
+    imageSrc: 'img/work-sample/digital-decoder-ltd.webp',
+    details: {
+      description: {
+        features: "Company Portfolio website. Users can view company profile, works, and career information. This website has no admin panel; it is fully frontend-focused",
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, SCSS, Bootstrap, JavaScript, ReactJs, NextJs, Swiper, Animate Css, Wow Js, Particle Js",
+        role: "Frontend",
+        viewOnline: {
+          text: "Musaifa Agro",
+          url: "https://digitaldecoderzzzz.netlify.app/"
+        },
+        frontendCode: {
+          text: "Private Code",
+        }
+      }
+    }
+  },
+  {
     title: 'The Niotech',
     imageSrc: 'img/work-sample/theniotech.webp',
     details: {
@@ -32,473 +94,11 @@ export const portfolioItems = [
         role: "Frontend",
         viewOnline: {
           text: "Grandeur",
-          url: "https://grandeurae.com/"
+          url: "https://grandeur-next.netlify.app/"
         },
         frontendCode: {
           text: "Client Side",
           url: "https://github.com/MuhammadMaruf11/grandeur-nextjs"
-        }
-      }
-    }
-  },
-  {
-    title: 'NAM IT (Only Desktop View)',
-    imageSrc: 'img/work-sample/namit.webp',
-    details: {
-      description: {
-        features: "Company Portfolio website. Users can view company profile, works, and career information. This website has no admin panel; it is fully frontend-focused."
-      },
-      generalInfo: {
-        technologiesUsed: "HTML, CSS, SCSS, Bootstrap, React, React-Router, Swiper",
-        role: "Frontend/Backend",
-        viewOnline: {
-          text: "NAM IT",
-          url: "https://nooralmithaq.com/"
-        },
-        frontendCode: {
-          text: "Client Side",
-          url: "https://github.com/MuhammadMaruf11/tele-sync-nexus"
-        },
-      }
-    }
-  },
-  {
-    title: 'Skillshoot',
-    imageSrc: 'img/work-sample/skillshoot.webp',
-    details: {
-      description: {
-        features: "Company Portfolio website. Users can view company profile, works, and career information. This website has no admin panel; it is fully frontend-focused."
-      },
-      generalInfo: {
-        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, TypeScript, ReactJs, NextJs, Motion, Animate CSS",
-        role: "Frontend",
-        viewOnline: {
-          text: "Skillshoot",
-          url: "https://skill-shoot-task.netlify.app/"
-        },
-        frontendCode: {
-          text: "Client Side",
-          url: "https://github.com/MuhammadMaruf11/skill-shoot"
-        },
-      }
-    }
-  },
-  {
-    title: 'USA Under Writer',
-    imageSrc: 'img/work-sample/usa-web.webp',
-    details: {
-      description: {
-        features: "Company Portfolio website. Users can view company profile, works, and career information. This website has no admin panel; it is fully frontend-focused."
-      },
-      generalInfo: {
-        technologiesUsed: "HTML, CSS, TailwindCSS, JavaScript, ReactJs, NextJs",
-        role: "Frontend",
-        viewOnline: {
-          text: "USA Under Writer",
-          url: "https://usa-website-design.netlify.app/"
-        },
-        frontendCode: {
-          text: "Client Side",
-          url: "https://github.com/MuhammadMaruf11/usa-website-design"
-        },
-      }
-    }
-  },
-  {
-    title: 'Banking API (Paused)',
-    imageSrc: 'img/work-sample/banking-api.webp',
-    details: {
-      description: {
-        features: "Banking API provider website. Users can order services and check their previous order history with status (pending, shipping, or done). Users get an API key to get services. This website has a functional admin panel with restricted access (only admin can access) section where admin can:",
-        adminActions: [
-          "Add services",
-          "Delete any existing services",
-          "Update the state of customer's order",
-          "Make a new admin"
-        ]
-      },
-      generalInfo: {
-        technologiesUsed: "HTML, CSS, SCSS, Bootstrap, React, React-Router, React Tabs, Swiper",
-        role: "Frontend",
-        viewOnline: {
-          text: "Banking Api Provider",
-          url: "https://banking-api.netlify.app"
-        },
-        frontendCode: {
-          text: "Client Side",
-          url: "https://github.com/MuhammadMaruf11/bankin-api"
-        }
-      }
-    }
-  },
-  {
-    title: 'Hashrid',
-    imageSrc: 'img/work-sample/hashrid.webp',
-    details: {
-      description: {
-        features: "This is a task and made by raw HTML and CSS."
-      },
-      generalInfo: {
-        technologiesUsed: "HTML, CSS",
-        role: "Frontend",
-        viewOnline: {
-          text: "Hashrid",
-          url: "https://hashrid.netlify.app/"
-        },
-        frontendCode: {
-          text: "Client Side",
-          url: "https://github.com/MuhammadMaruf11/hashrid"
-        }
-      }
-    }
-  },
-  {
-    title: 'Pickvisa (Paused)',
-    imageSrc: 'img/work-sample/pick-visa.webp',
-    details: {
-      description: {
-        features: "Travels website. Frontend only, users can view the client website to get an idea about their company."
-      },
-      generalInfo: {
-        technologiesUsed: "HTML, CSS, SCSS, Bootstrap, JavaScript, jQuery, Wow Js, Animate Css, Metis Menu",
-        role: "Frontend",
-        viewOnline: {
-          text: "Pickvisa",
-          url: "https://pick-visa.netlify.app/"
-        },
-        frontendCode: {
-          text: "Client Side",
-          url: "https://github.com/MuhammadMaruf11/pickvisa"
-        }
-      }
-    }
-  },
-  {
-    title: 'Sohojogi',
-    imageSrc: 'img/work-sample/sohojogi.webp',
-    details: {
-      description: {
-        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
-      },
-      generalInfo: {
-        technologiesUsed: "HTML, CSS,  Bootstrap, JavaScript",
-        role: "Frontend",
-        viewOnline: {
-          text: "Sohojogi",
-          url: "https://sohojogi.netlify.app/"
-        },
-        frontendCode: {
-          text: "Private Code",
-        }
-      }
-    }
-  },
-  {
-    title: 'Qanun',
-    imageSrc: 'img/work-sample/qanun.webp',
-    details: {
-      description: {
-        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
-      },
-      generalInfo: {
-        technologiesUsed: "HTML, CSS,  Bootstrap, JavaScript",
-        role: "Frontend",
-        viewOnline: {
-          text: "Qanun",
-          url: "https://qanun.netlify.app/"
-        },
-        frontendCode: {
-          text: "Private Code",
-        }
-      }
-    }
-  },
-  {
-    title: 'Equity Real Estate',
-    imageSrc: 'img/work-sample/equity-real-estate.webp',
-    details: {
-      description: {
-        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
-      },
-      generalInfo: {
-        technologiesUsed: "HTML, CSS,  Bootstrap, JavaScript, jQuery, AOS Js, Animate Css",
-        role: "Frontend",
-        viewOnline: {
-          text: "Equity Real Estate",
-          url: "https://equity-real-estate.netlify.app/"
-        },
-        frontendCode: {
-          text: "Private Code",
-        }
-      }
-    }
-  },
-  {
-    title: 'Ecommerce shoe/cloth',
-    imageSrc: 'img/work-sample/ecommerce-go-devs.webp',
-    details: {
-      description: {
-        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
-      },
-      generalInfo: {
-        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery",
-        role: "Frontend",
-        viewOnline: {
-          text: "Ecommerce shoe/cloth",
-          url: "https://go-devs-ecommerce.netlify.app/"
-        },
-        frontendCode: {
-          text: "Client Side",
-          url: "https://github.com/MuhammadMaruf11/go-devs-ecommerce"
-        }
-      }
-    }
-  },
-  {
-    title: 'Nazmul Avi',
-    imageSrc: 'img/work-sample/nazmul-avi.webp',
-    details: {
-      description: {
-        features: "Portfolio website. Frontend only, users can view the client website to get an idea about their company."
-      },
-      generalInfo: {
-        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery",
-        role: "Frontend",
-        viewOnline: {
-          text: "Nazmul Avi",
-          url: "https://nazmul-avi-portfolio.netlify.app/"
-        },
-        frontendCode: {
-          text: "Client Side",
-          url: "https://github.com/MuhammadMaruf11/nazmul-avi"
-        }
-      }
-    }
-  },
-  {
-    title: 'Maria Trusted Purity',
-    imageSrc: 'img/work-sample/maria-trusted-purity.webp',
-    details: {
-      description: {
-        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
-      },
-      generalInfo: {
-        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery",
-        role: "Frontend",
-        viewOnline: {
-          text: "Maria Trusted Purity",
-          url: "https://maria-group-of-company.netlify.app/"
-        },
-        frontendCode: {
-          text: "Client Side",
-          url: "https://github.com/MuhammadMaruf11/maria-trusted-purity"
-        }
-      }
-    }
-  },
-  {
-    title: 'School Management',
-    imageSrc: 'img/work-sample/school-management.webp',
-    details: {
-      description: {
-        features: "This is a School management website public view only."
-      },
-      generalInfo: {
-        technologiesUsed: "HTML, CSS",
-        role: "Frontend",
-        viewOnline: {
-          text: "School Management",
-          url: "https://go-devs-school-management-system.netlify.app/"
-        },
-        frontendCode: {
-          text: "Client Side",
-          url: "https://github.com/MuhammadMaruf11/LMS"
-        }
-      }
-    }
-  },
-  {
-    title: 'Naquib Khan',
-    imageSrc: 'img/work-sample/naquib-khan.webp',
-    details: {
-      description: {
-        features: "This is a Portfolio website."
-      },
-      generalInfo: {
-        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery, Canvas",
-        role: "Frontend",
-        viewOnline: {
-          text: "Naquib Khan",
-          url: "https://nquib-khan.netlify.app/"
-        },
-        frontendCode: {
-          text: "Client Side",
-          url: "https://github.com/MuhammadMaruf11/naquib-khan"
-        }
-      }
-    }
-  },
-  {
-    title: 'Newspaper',
-    imageSrc: 'img/work-sample/newspaper.webp',
-    details: {
-      description: {
-        features: "This is a Newspaper website."
-      },
-      generalInfo: {
-        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery",
-        role: "Frontend",
-        viewOnline: {
-          text: "Newspaper",
-          url: "https://go-devs-news-bangla.netlify.app/"
-        },
-        frontendCode: {
-          text: "Client Side",
-          url: "https://github.com/MuhammadMaruf11/go-devs-news-bangla"
-        }
-      }
-    }
-  },
-  {
-    title: 'Bill Token',
-    imageSrc: 'img/work-sample/biltoken.webp',
-    details: {
-      description: {
-        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
-      },
-      generalInfo: {
-        technologiesUsed: "HTML, CSS, SCSS, Bootstrap, JavaScript, jQuery, Wow Js, Animate Css, Metis Menu",
-        role: "Frontend",
-        viewOnline: {
-          text: "Bill Token",
-          url: "https://muhammadmaruf11.github.io/billtoken/"
-        },
-        frontendCode: {
-          text: "Client Side",
-          url: "https://github.com/MuhammadMaruf11/billtoken"
-        }
-      }
-    }
-  },
-  {
-    title: 'Free Template',
-    imageSrc: 'img/work-sample/piroll.webp',
-    details: {
-      description: {
-        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
-      },
-      generalInfo: {
-        technologiesUsed: "HTML, CSS, SCSS, Bootstrap, JavaScript, jQuery, Skill Bar, Veno Box, Swiper, Odometer, Mean Menu",
-        role: "Frontend",
-        viewOnline: {
-          text: "Free Template",
-          url: "https://muhammadmaruf11.github.io/Piroll/"
-        },
-        frontendCode: {
-          text: "Client Side",
-          url: "https://github.com/MuhammadMaruf11/Piroll"
-        }
-      }
-    }
-  },
-  {
-    title: 'Aleafina',
-    imageSrc: 'img/work-sample/aleafina.webp',
-    details: {
-      description: {
-        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
-      },
-      generalInfo: {
-        technologiesUsed: "HTML, CSS, SCSS, Bootstrap, JavaScript, jQuery.",
-        role: "Frontend",
-        viewOnline: {
-          text: "Aleafina",
-          url: "https://aleafina.netlify.app/"
-        },
-        frontendCode: {
-          text: "Client Side",
-          url: "https://github.com/MuhammadMaruf11/aleafina"
-        }
-      }
-    }
-  },
-  {
-    title: 'Source Direct',
-    imageSrc: 'img/work-sample/source-direct.webp',
-    details: {
-      description: {
-        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
-      },
-      generalInfo: {
-        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery, Mean Menu",
-        role: "Frontend",
-        viewOnline: {
-          text: "Source Direct",
-          url: "https://sourcedirectint.com/"
-        },
-        frontendCode: {
-          text: "Client Side",
-          url: "https://github.com/MuhammadMaruf11/source-direct"
-        }
-      }
-    }
-  },
-  {
-    title: 'Tech Vault Ltd.',
-    imageSrc: 'img/work-sample/techvault.webp',
-    details: {
-      description: {
-        features: "Company Portfolio website. Users can view company profile, works, career and so on. This website has no admin panel; this is a fully frontend-focused website and has both light and dark modes."
-      },
-      generalInfo: {
-        technologiesUsed: "HTML, CSS, Bootstrap, React, React-Router, Animate Css, Wow Js, Swiper",
-        role: "Frontend",
-        viewOnline: {
-          text: "Tech Vault Ltd.",
-          url: "https://techvaultltd.com/"
-        },
-        frontendCode: {
-          text: "Private Code",
-        }
-      }
-    }
-  },
-  {
-    title: 'Digital Decoder Ltd.',
-    imageSrc: 'img/work-sample/digital-decoder-ltd.webp',
-    details: {
-      description: {
-        features: "Company Portfolio website. Users can view company profile, works, and career information. This website has no admin panel; it is fully frontend-focused",
-      },
-      generalInfo: {
-        technologiesUsed: "HTML, CSS, SCSS, Bootstrap, JavaScript, ReactJs, NextJs, Swiper, Animate Css, Wow Js, Particle Js",
-        role: "Frontend",
-        viewOnline: {
-          text: "Musaifa Agro",
-          url: "https://digitaldecoderzzzz.netlify.app/"
-        },
-        frontendCode: {
-          text: "Private Code",
-        }
-      }
-    }
-  },
-  {
-    title: 'Musaifa Agro',
-    imageSrc: 'img/work-sample/musaifa-agro.webp',
-    details: {
-      description: {
-        features: "Company Portfolio website. Users can view company profile, works, and career information. This website has no admin panel; it is fully frontend-focused",
-      },
-      generalInfo: {
-        technologiesUsed: "HTML, CSS, SCSS, Bootstrap, JavaScript, ReactJs, NextJs, Swiper, Animate Css, Wow Js",
-        role: "Frontend",
-        viewOnline: {
-          text: "Musaifa Agro",
-          url: "https://musaifa-agro.netlify.app/"
-        },
-        frontendCode: {
-          text: "Private Code",
         }
       }
     }
@@ -534,47 +134,247 @@ export const portfolioItems = [
     }
   },
   {
-    title: 'AI Remove BG (ongoing)',
-    imageSrc: 'img/work-sample/remove-bg.webp',
+    title: 'Musaifa Agro',
+    imageSrc: 'img/work-sample/musaifa-agro.webp',
     details: {
       description: {
-        features: "Background remover website. Users can upload image to remove background. This website has a functional admin panel with restricted access (only admin can access) section where admin can:",
-        adminActions: [
-          "Add plan",
-          "Delete plan",
-          "Update plan",
-        ]
+        features: "Company Portfolio website. Users can view company profile, works, and career information. This website has no admin panel; it is fully frontend-focused",
       },
       generalInfo: {
-        technologiesUsed: "HTML, CSS, Bootstrap, TypeScript, React, React Bootstrap, React-Router, Axios, React Toastify, React Confirm Alert, React Tabs",
+        technologiesUsed: "HTML, CSS, SCSS, Bootstrap, JavaScript, ReactJs, NextJs, Swiper, Animate Css, Wow Js",
         role: "Frontend",
         viewOnline: {
-          text: "Backend Not Connected",
-          url: "https://smart-ai-remove-bg.netlify.app/"
+          text: "Musaifa Agro",
+          url: "https://musaifa-agro.netlify.app/"
         },
         frontendCode: {
           text: "Private Code",
+        }
+      }
+    }
+  },
+  {
+    title: 'USA Under Writer',
+    imageSrc: 'img/work-sample/usa-web.webp',
+    details: {
+      description: {
+        features: "Company Portfolio website. Users can view company profile, works, and career information. This website has no admin panel; it is fully frontend-focused."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, TailwindCSS, JavaScript, ReactJs, NextJs",
+        role: "Frontend",
+        viewOnline: {
+          text: "USA Under Writer",
+          url: "https://usa-website-design.netlify.app/"
+        },
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/usa-website-design"
         },
       }
     }
   },
   {
-    title: 'Rex Roth',
-    imageSrc: 'img/work-sample/rexroth.webp',
+    title: 'Ecommerce shoe/cloth',
+    imageSrc: 'img/work-sample/ecommerce-go-devs.webp',
     details: {
       description: {
         features: "Client website. Frontend only, users can view the client website to get an idea about their company."
       },
       generalInfo: {
-        technologiesUsed: "HTML, CSS, SCSS, Bootstrap, JavaScript, jQuery, Veno Box",
+        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery",
         role: "Frontend",
         viewOnline: {
-          text: "Rex Roth",
-          url: "https://rex-roth.netlify.app/"
+          text: "Ecommerce shoe/cloth",
+          url: "https://go-devs-ecommerce.netlify.app/"
         },
         frontendCode: {
           text: "Client Side",
-          url: "https://github.com/MuhammadMaruf11/Rex-Roth"
+          url: "https://github.com/MuhammadMaruf11/go-devs-ecommerce"
+        }
+      }
+    }
+  },
+  {
+    title: 'Equity Real Estate',
+    imageSrc: 'img/work-sample/equity-real-estate.webp',
+    details: {
+      description: {
+        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS,  Bootstrap, JavaScript, jQuery, AOS Js, Animate Css",
+        role: "Frontend",
+        viewOnline: {
+          text: "Equity Real Estate",
+          url: "https://equity-real-estate.netlify.app/"
+        },
+        frontendCode: {
+          text: "Private Code",
+        }
+      }
+    }
+  },
+  {
+    title: 'Qanun (New)',
+    imageSrc: 'img/work-sample/qanun.webp',
+    details: {
+      description: {
+        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS,  Bootstrap, JavaScript",
+        role: "Frontend",
+        viewOnline: {
+          text: "Qanun",
+          url: "https://qanun.com.bd/"
+        },
+        frontendCode: {
+          text: "Private Code",
+        }
+      }
+    }
+  },
+  {
+    title: 'Infolook',
+    imageSrc: 'img/work-sample/infolook.webp',
+    details: {
+      description: {
+        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS,  Bootstrap, JavaScript",
+        role: "Frontend",
+        viewOnline: {
+          text: "Infolook",
+          url: "https://infolook.netlify.app/"
+        },
+        frontendCode: {
+          text: "Private Code",
+        }
+      }
+    }
+  },
+  {
+    title: 'Sohojogi',
+    imageSrc: 'img/work-sample/sohojogi.webp',
+    details: {
+      description: {
+        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS,  Bootstrap, JavaScript",
+        role: "Frontend",
+        viewOnline: {
+          text: "Sohojogi",
+          url: "https://sohojogi.netlify.app/"
+        },
+        frontendCode: {
+          text: "Private Code",
+        }
+      }
+    }
+  },
+  {
+    title: 'Nazmul Avi',
+    imageSrc: 'img/work-sample/nazmul-avi.webp',
+    details: {
+      description: {
+        features: "Portfolio website. Frontend only, users can view the client website to get an idea about their company."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery",
+        role: "Frontend",
+        viewOnline: {
+          text: "Nazmul Avi",
+          url: "https://nazmul-avi-portfolio.netlify.app/"
+        },
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/nazmul-avi"
+        }
+      }
+    }
+  },
+  {
+    title: 'Source Direct',
+    imageSrc: 'img/work-sample/source-direct.webp',
+    details: {
+      description: {
+        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery, Mean Menu",
+        role: "Frontend",
+        viewOnline: {
+          text: "Source Direct",
+          url: "https://sourcedirectint.com/"
+        },
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/source-direct"
+        }
+      }
+    }
+  },
+  {
+    title: 'Qanun (Old)',
+    imageSrc: 'img/work-sample/qanun-old.webp',
+    details: {
+      description: {
+        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS,  Bootstrap, JavaScript",
+        role: "Frontend",
+        viewOnline: {
+          text: "Qanun",
+          url: "https://qanun-old.netlify.app/"
+        },
+        frontendCode: {
+          text: "Private Code",
+        }
+      }
+    }
+  },
+  {
+    title: 'Maria Trusted Purity',
+    imageSrc: 'img/work-sample/maria-trusted-purity.webp',
+    details: {
+      description: {
+        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery",
+        role: "Frontend",
+        viewOnline: {
+          text: "Maria Trusted Purity",
+          url: "https://maria-group-of-company.netlify.app/"
+        },
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/maria-trusted-purity"
+        }
+      }
+    }
+  },
+  {
+    title: 'Newspaper',
+    imageSrc: 'img/work-sample/newspaper.webp',
+    details: {
+      description: {
+        features: "This is a Newspaper website."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery",
+        role: "Frontend",
+        viewOnline: {
+          text: "Newspaper",
+          url: "https://go-devs-news-bangla.netlify.app/"
+        },
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/go-devs-news-bangla"
         }
       }
     }
@@ -601,6 +401,247 @@ export const portfolioItems = [
         frontendCode: {
           text: "Client Side",
           url: "https://github.com/MuhammadMaruf11/WSIN",
+        },
+      }
+    }
+  },
+  {
+    title: 'Learning Management',
+    imageSrc: 'img/work-sample/school-management.webp',
+    details: {
+      description: {
+        features: "This is a School management website public view only."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS",
+        role: "Frontend",
+        viewOnline: {
+          text: "Learning Management",
+          url: "https://go-devs-school-management-system.netlify.app/"
+        },
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/LMS"
+        }
+      }
+    }
+  },
+  {
+    title: 'Bill Token',
+    imageSrc: 'img/work-sample/biltoken.webp',
+    details: {
+      description: {
+        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, SCSS, Bootstrap, JavaScript, jQuery, Wow Js, Animate Css, Metis Menu",
+        role: "Frontend",
+        viewOnline: {
+          text: "Bill Token",
+          url: "https://muhammadmaruf11.github.io/billtoken/"
+        },
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/billtoken"
+        }
+      }
+    }
+  },
+  {
+    title: 'Aleafina',
+    imageSrc: 'img/work-sample/aleafina.webp',
+    details: {
+      description: {
+        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, SCSS, Bootstrap, JavaScript, jQuery.",
+        role: "Frontend",
+        viewOnline: {
+          text: "Aleafina",
+          url: "https://aleafina.netlify.app/"
+        },
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/aleafina"
+        }
+      }
+    }
+  },
+  {
+    title: 'Hashrid',
+    imageSrc: 'img/work-sample/hashrid.webp',
+    details: {
+      description: {
+        features: "This is a task and made by raw HTML and CSS."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS",
+        role: "Frontend",
+        viewOnline: {
+          text: "Hashrid",
+          url: "https://hashrid.netlify.app/"
+        },
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/hashrid"
+        }
+      }
+    }
+  },
+  {
+    title: 'Rex Roth',
+    imageSrc: 'img/work-sample/rexroth.webp',
+    details: {
+      description: {
+        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, SCSS, Bootstrap, JavaScript, jQuery, Veno Box",
+        role: "Frontend",
+        viewOnline: {
+          text: "Rex Roth",
+          url: "https://rex-roth.netlify.app/"
+        },
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/Rex-Roth"
+        }
+      }
+    }
+  },
+  {
+    title: 'Free Template',
+    imageSrc: 'img/work-sample/piroll.webp',
+    details: {
+      description: {
+        features: "Client website. Frontend only, users can view the client website to get an idea about their company."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, SCSS, Bootstrap, JavaScript, jQuery, Skill Bar, Veno Box, Swiper, Odometer, Mean Menu",
+        role: "Frontend",
+        viewOnline: {
+          text: "Free Template",
+          url: "https://muhammadmaruf11.github.io/Piroll/"
+        },
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/Piroll"
+        }
+      }
+    }
+  },
+  {
+    title: 'Naquib Khan',
+    imageSrc: 'img/work-sample/naquib-khan.webp',
+    details: {
+      description: {
+        features: "This is a Portfolio website."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery, Canvas",
+        role: "Frontend",
+        viewOnline: {
+          text: "Naquib Khan",
+          url: "https://nquib-khan.netlify.app/"
+        },
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/naquib-khan"
+        }
+      }
+    }
+  },
+  {
+    title: 'Tele Sync Nexus (Desktop Only)',
+    imageSrc: 'img/work-sample/namit.webp',
+    details: {
+      description: {
+        features: "Company Portfolio website. Users can view company profile, works, and career information. This website has no admin panel; it is fully frontend-focused."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, SCSS, Bootstrap, React, React-Router, Swiper",
+        role: "Frontend/Backend",
+        viewOnline: {
+          text: "NAM IT",
+          url: "https://tele-sync-nexus.netlify.app/"
+        },
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/tele-sync-nexus"
+        },
+      }
+    }
+  },
+  {
+    title: 'Banking API (Paused)',
+    imageSrc: 'img/work-sample/banking-api.webp',
+    details: {
+      description: {
+        features: "Banking API provider website. Users can order services and check their previous order history with status (pending, shipping, or done). Users get an API key to get services. This website has a functional admin panel with restricted access (only admin can access) section where admin can:",
+        adminActions: [
+          "Add services",
+          "Delete any existing services",
+          "Update the state of customer's order",
+          "Make a new admin"
+        ]
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, SCSS, Bootstrap, React, React-Router, React Tabs, Swiper",
+        role: "Frontend",
+        viewOnline: {
+          text: "Banking Api Provider",
+          url: "https://banking-api.netlify.app"
+        },
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/bankin-api"
+        }
+      }
+    }
+  },
+  {
+    title: 'Pickvisa (Paused)',
+    imageSrc: 'img/work-sample/pick-visa.webp',
+    details: {
+      description: {
+        features: "Travels website. Frontend only, users can view the client website to get an idea about their company."
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, SCSS, Bootstrap, JavaScript, jQuery, Wow Js, Animate Css, Metis Menu",
+        role: "Frontend",
+        viewOnline: {
+          text: "Pickvisa",
+          url: "https://pick-visa.netlify.app/"
+        },
+        frontendCode: {
+          text: "Client Side",
+          url: "https://github.com/MuhammadMaruf11/pickvisa"
+        }
+      }
+    }
+  },
+  {
+    title: 'AI Remove BG (ongoing)',
+    imageSrc: 'img/work-sample/remove-bg.webp',
+    details: {
+      description: {
+        features: "Background remover website. Users can upload image to remove background. This website has a functional admin panel with restricted access (only admin can access) section where admin can:",
+        adminActions: [
+          "Add plan",
+          "Delete plan",
+          "Update plan",
+        ]
+      },
+      generalInfo: {
+        technologiesUsed: "HTML, CSS, Bootstrap, TypeScript, React, React Bootstrap, React-Router, Axios, React Toastify, React Confirm Alert, React Tabs",
+        role: "Frontend",
+        viewOnline: {
+          text: "Backend Not Connected",
+          url: "https://smart-ai-remove-bg.netlify.app/"
+        },
+        frontendCode: {
+          text: "Private Code",
         },
       }
     }
@@ -684,8 +725,7 @@ export const portfolioItems = [
         technologiesUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery, Wow Js, Animate Css, PHP, CodeIgniter, MySQL.",
         role: "Frontend",
         viewOnline: {
-          text: "College Management",
-          url: "https://institutionamanagement.techvaultltd.com/"
+          text: "Not Available",
         },
       }
     }
